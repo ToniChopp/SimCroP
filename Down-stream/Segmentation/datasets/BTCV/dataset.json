@@ -1,0 +1,175 @@
+{
+    "description": "btcv yucheng",
+    "labels": {
+        "0": "background",
+        "1": "spleen",
+        "2": "rkid",
+        "3": "lkid",
+        "4": "gall",
+        "5": "eso",
+        "6": "liver",
+        "7": "sto",
+        "8": "aorta",
+        "9": "IVC",
+        "10": "veins",
+        "11": "pancreas",
+        "12": "rad",
+        "13": "lad"
+    },
+    "licence": "yt",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "btcv",
+    "numTest": 20,
+    "numTraining": 80,
+    "reference": "Vanderbilt University",
+    "release": "1.0 06/08/2015",
+    "tensorImageSize": "3D",
+	"test": [
+        "imagesTs/img0061.nii.gz",
+        "imagesTs/img0062.nii.gz",
+        "imagesTs/img0063.nii.gz",
+        "imagesTs/img0064.nii.gz",
+        "imagesTs/img0065.nii.gz",
+        "imagesTs/img0066.nii.gz",
+        "imagesTs/img0067.nii.gz",
+        "imagesTs/img0068.nii.gz",
+        "imagesTs/img0069.nii.gz",
+        "imagesTs/img0070.nii.gz",
+        "imagesTs/img0071.nii.gz",
+        "imagesTs/img0072.nii.gz",
+        "imagesTs/img0073.nii.gz",
+        "imagesTs/img0074.nii.gz",
+        "imagesTs/img0075.nii.gz",
+        "imagesTs/img0076.nii.gz",
+        "imagesTs/img0077.nii.gz",
+        "imagesTs/img0078.nii.gz",
+        "imagesTs/img0079.nii.gz",
+        "imagesTs/img0080.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "imagesTr/btcv_001.nii.gz",
+            "label": "labelsTr/btcv_001.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_002.nii.gz",
+            "label": "labelsTr/btcv_002.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_003.nii.gz",
+            "label": "labelsTr/btcv_003.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_004.nii.gz",
+            "label": "labelsTr/btcv_004.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_005.nii.gz",
+            "label": "labelsTr/btcv_005.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_006.nii.gz",
+            "label": "labelsTr/btcv_006.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_007.nii.gz",
+            "label": "labelsTr/btcv_007.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_008.nii.gz",
+            "label": "labelsTr/btcv_008.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_009.nii.gz",
+            "label": "labelsTr/btcv_009.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_010.nii.gz",
+            "label": "labelsTr/btcv_010.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_021.nii.gz",
+            "label": "labelsTr/btcv_021.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_022.nii.gz",
+            "label": "labelsTr/btcv_022.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_023.nii.gz",
+            "label": "labelsTr/btcv_023.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_024.nii.gz",
+            "label": "labelsTr/btcv_024.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_025.nii.gz",
+            "label": "labelsTr/btcv_025.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_026.nii.gz",
+            "label": "labelsTr/btcv_026.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_027.nii.gz",
+            "label": "labelsTr/btcv_027.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_028.nii.gz",
+            "label": "labelsTr/btcv_028.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_029.nii.gz",
+            "label": "labelsTr/btcv_029.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_030.nii.gz",
+            "label": "labelsTr/btcv_030.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_031.nii.gz",
+            "label": "labelsTr/btcv_031.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_032.nii.gz",
+            "label": "labelsTr/btcv_032.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_033.nii.gz",
+            "label": "labelsTr/btcv_033.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_034.nii.gz",
+            "label": "labelsTr/btcv_034.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "imagesTr/btcv_035.nii.gz",
+            "label": "labelsTr/btcv_035.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_036.nii.gz",
+            "label": "labelsTr/btcv_036.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_037.nii.gz",
+            "label": "labelsTr/btcv_037.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_038.nii.gz",
+            "label": "labelsTr/btcv_038.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_039.nii.gz",
+            "label": "labelsTr/btcv_039.nii.gz"
+        },
+        {
+            "image": "imagesTr/btcv_040.nii.gz",
+            "label": "labelsTr/btcv_040.nii.gz"
+        }
+    ]
+}
